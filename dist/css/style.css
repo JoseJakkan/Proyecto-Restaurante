@@ -6,8 +6,9 @@
     
 }
 
-div{
-    max-width: 100%;
+.col{
+    padding: 0px !important;
+    
 }
 
 body{
@@ -135,11 +136,7 @@ footer{
     margin-bottom: 2px;
 }
 
-.imgvino{
-    height: 50%;
-    width: 100%;
-    margin-bottom: 2px;
-}
+
 
 .secmenu{
     background-color: var(--main-color);
@@ -148,7 +145,7 @@ footer{
 
 .separador{
     height: 10em;
-    background-image:url('/images/pescados.jpg');
+    background-image:url('/images/paris.jpeg');
     background-size:cover;
     background-attachment: fixed;
 }
