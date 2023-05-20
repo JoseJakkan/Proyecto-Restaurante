@@ -130,7 +130,13 @@ footer{
 }
 
 .imgplato{
-    height: 5em;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.imgvino{
+    height: 50%;
     width: 100%;
     margin-bottom: 2px;
 }
