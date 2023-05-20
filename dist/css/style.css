@@ -27,8 +27,6 @@ body{
 
 /* pagina principal */
 
-
-
 .header{
     height: 4.375em;
     background-color: var(--main-color);
@@ -47,21 +45,8 @@ body{
     margin-left: 2em;
 }
 
-.logo-lit{
-    height: 1em;
-    
-}
 
-.indice{
-    background-color: var(--secondary-color);
-    height: 3em;
-    margin-top: 2.5em;
-    
-}
 
-.lang{
-    width: 100%;
-}
 
 #titulo{
     height: 2em;
@@ -73,29 +58,24 @@ body{
 
 .active:hover{
     box-shadow: 0em 0em 0.5em brown;
-    border-radius: 30px;
-}
-
-li{
-    font-family: "paris";
-    background-color: var(--secondary-color);
-    width: 5em;
-    justify-self: center;
-    
-}
-.navbar{
-    --bs-navbar-padding-y: 0rem !important;
-    width: 100% !important;
-    background-color: var(--secondary-color);
     
 }
 
-.indice{
+.nav{
+    background-color: var(--secondary-color);
     display: flex;
-    justify-content: start !important;
-    flex-direction: row;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.active{
+    text-decoration: none !important;
+    font-family: "paris";
+    color: var(--main-color);
     
 }
+
+
 
 .subt{
     background-color: var(--main-color);
@@ -109,6 +89,10 @@ li{
     width: 100%;
 }
 
+.texto{
+    font-family: "paris";
+}
+
 .cent{
     display: flex;
     justify-content: center;
@@ -116,6 +100,22 @@ li{
 
 footer{
     background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titfoot{
+    font-family: "paris";
+    color: var(--secondary-color);
+
+}
+
+.textfoot{
+    font-family: "paris";
+    color: var(--secondary-color);
+    justify-self: center;
 }
 
 
