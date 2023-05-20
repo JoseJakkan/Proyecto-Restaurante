@@ -2,8 +2,12 @@
 :root{
     --main-color: #c42f4f; 
     --secondary-color: #FFD700; 
-    --font: "parisen";
     
+    
+}
+
+div{
+    max-width: 100%;
 }
 
 body{
@@ -19,9 +23,7 @@ body{
   src: url("images/Parisienne-Regular.ttf");
 }
 
-.col{
-    outline: 1px solid black !important;
-}
+
 
 /* pagina principal */
 
@@ -57,7 +59,9 @@ body{
     
 }
 
-
+.lang{
+    width: 100%;
+}
 
 #titulo{
     height: 2em;
@@ -88,7 +92,7 @@ li{
 
 .indice{
     display: flex;
-    justify-content: center !important;
+    justify-content: start !important;
     flex-direction: row;
     
 }
@@ -105,6 +109,11 @@ li{
     width: 100%;
 }
 
+.cent{
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     background-color: var(--main-color);
 }
@@ -113,15 +122,30 @@ footer{
 /* pagina de carta */
 
 .plato{
-    width: auto;
+    width: 10em;
     width: 100%;
-    background-color: blue;
-    outline: 1px solid black;
+    font-family: "paris";
+   
+    
 }
 
 .imgplato{
-    height: 100%;
+    height: 5em;
     width: 100%;
-    z-index: -1;
+    margin-bottom: 2px;
+}
+
+.secmenu{
+    background-color: var(--main-color);
+    font-family: "paris";
+}
+
+.separador{
+    height: 10em;
+    background-image:url('/images/pescados.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+
     
 }
+
