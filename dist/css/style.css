@@ -1,0 +1,127 @@
+
+:root{
+    --main-color: #c42f4f; 
+    --secondary-color: #FFD700; 
+    --font: "parisen";
+    
+}
+
+body{
+
+    padding: 0px !important;
+    
+}
+
+
+
+@font-face {
+  font-family: "paris";
+  src: url("images/Parisienne-Regular.ttf");
+}
+
+.col{
+    outline: 1px solid black !important;
+}
+
+/* pagina principal */
+
+
+
+.header{
+    height: 4.375em;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.color-sec{
+    background-color: var(--secondary-color);
+}
+
+.logo-big{
+    height: 4em;
+    margin-left: 2em;
+}
+
+.logo-lit{
+    height: 1em;
+    
+}
+
+.indice{
+    background-color: var(--secondary-color);
+    height: 3em;
+    margin-top: 2.5em;
+    
+}
+
+
+
+#titulo{
+    height: 2em;
+    color: var(--secondary-color);
+    font-family: "paris";
+    width: 1em;
+    font-size: 2em;
+}
+
+.active:hover{
+    box-shadow: 0em 0em 0.5em brown;
+    border-radius: 30px;
+}
+
+li{
+    font-family: "paris";
+    background-color: var(--secondary-color);
+    width: 5em;
+    justify-self: center;
+    
+}
+.navbar{
+    --bs-navbar-padding-y: 0rem !important;
+    width: 100% !important;
+    background-color: var(--secondary-color);
+    
+}
+
+.indice{
+    display: flex;
+    justify-content: center !important;
+    flex-direction: row;
+    
+}
+
+.subt{
+    background-color: var(--main-color);
+    height: 2em;
+    color: var(--secondary-color);
+    font-family: "paris";
+}
+
+.platoe{
+    height: 10em;
+    width: 100%;
+}
+
+footer{
+    background-color: var(--main-color);
+}
+
+
+/* pagina de carta */
+
+.plato{
+    width: auto;
+    width: 100%;
+    background-color: blue;
+    outline: 1px solid black;
+}
+
+.imgplato{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
