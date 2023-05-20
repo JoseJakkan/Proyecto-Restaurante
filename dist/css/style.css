@@ -145,7 +145,31 @@ footer{
     background-image:url('/images/pescados.jpg');
     background-size:cover;
     background-attachment: fixed;
-
-    
 }
 
+/* Pagina de Contacto */
+
+.for{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    background-color: #808080;
+}
+
+.forlab{
+    font-family: "paris";
+    color: var(--main-color);
+    font-size: 2em;
+}
+
+.forinp{
+    font-family: "paris";
+}
+
+.map{
+    width: 100%;
+    height: 20em;
+   
+}
