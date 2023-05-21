@@ -146,9 +146,9 @@ footer{
 
 .separador{
     height: 10em;
-    background-image:url('../images/postre.jfif');
     background-size:cover;
     background-attachment: fixed;
+    background-image: url(../images/paris.jpeg);
 }
 
 /* Pagina de Contacto */
@@ -175,6 +175,8 @@ footer{
 .map{
     width: 80%;
     height: 20em;
+    display: flex;
+    justify-content: center;
    
 }
 
@@ -189,4 +191,8 @@ footer{
 
 .par{
     font-family: "paris";
+}
+
+.form-label{
+    margin-left: 3em;
 }
