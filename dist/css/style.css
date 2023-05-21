@@ -154,7 +154,7 @@ footer{
     height: 10em;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url("https://media.gq.com.mx/photos/62264e3da3cf727998b59700/16:9/w_1920%2Cc_limit/Seine%2520paris%2520bike-GettyImages-1161606501.jpeg") !important;
+    background-image: url("../images/paris.webp") ;
 }
  
 /* Pagina de Contacto */
