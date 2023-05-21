@@ -37,13 +37,10 @@ header{
     width: 100%;
 }
 
-/* pagina principal */
-
-
-
 .color-sec{
     background-color: var(--secondary-color);
 }
+
 
 .logo-big{
     height: 4em;
@@ -80,7 +77,7 @@ header{
     
 }
 
-
+/* pagina principal */
 
 .subt{
     background-color: var(--main-color);
