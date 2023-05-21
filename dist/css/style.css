@@ -33,9 +33,6 @@ body{
     
 }
 
-header{
-    width: 100%;
-}
 
 .color-sec{
     background-color: var(--secondary-color);
@@ -148,7 +145,7 @@ footer{
     height: 10em;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url(".paris.jpeg");
+    background-image: url("../images/paris.jpeg");
 }
 
 /* Pagina de Contacto */
@@ -179,7 +176,10 @@ footer{
 }
 
 .formcom{
-    margin-left: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .mb-3{
