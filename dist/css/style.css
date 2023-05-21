@@ -33,8 +33,12 @@ body{
     
 }
 
-.color-prim{
+.text-prim{
     color: var(--main-color);
+}
+
+.text-sec{
+    color: var(--secondary-color);
 }
 
 .color-sec{
@@ -46,9 +50,6 @@ body{
     height: 4em;
     margin-left: 2em;
 }
-
-
-
 
 #titulo{
     height: 2em;
@@ -145,13 +146,15 @@ footer{
 .secmenu{
     background-color: var(--main-color);
     font-family: "paris";
+    width: 100%;
+   
 }
 
 .separador{
     height: 10em;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url ("./../images/paris.jpeg");
+    background-image: url (../images/paris.jpeg);
 }
  
 /* Pagina de Contacto */
