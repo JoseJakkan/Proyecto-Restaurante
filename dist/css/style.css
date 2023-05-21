@@ -146,7 +146,7 @@ footer{
 
 .separador{
     height: 10em;
-    background-image:url('../images/paris.jpeg;');
+    background-image:url('../images/paris.jpeg');
     background-size:cover;
     background-attachment: fixed;
 }
@@ -173,13 +173,13 @@ footer{
 }
 
 .map{
-    width: 100%;
+    width: 80%;
     height: 20em;
    
 }
 
 .fotcom{
-    margin-left: 5px;
+    margin-left: 3em;
 }
 
 .mb-3{
