@@ -9,11 +9,7 @@
 <li>Futuras mejoras</li>
 </ul>
 
-## Deploy
-<div align:"center">
-<a href="https://josejakkan.github.io/Proyecto-Restaurante/">
-URL del Proyecto</a>
-</div>
+
 
 ## :blue_book:Descripcion del proyecto
 
@@ -21,7 +17,11 @@ El proyecto simula una pagina de un restaurante ficticcio. Consta de tres pagina
 Las tres pagias tienen una unidad de estilo acorde al tipo de pagina, sobria y elegante.
 El objetivo principal del proyecto es el uso de Bootstrap para conseguir una pagina responsive con mas facilidad.
 
-
+## Deploy
+<div align:"center">
+<a href="https://josejakkan.github.io/Proyecto-Restaurante/">
+URL del Proyecto</a>
+</div>
 
 ## :wrench:Tecnologias Utilizadas
 
