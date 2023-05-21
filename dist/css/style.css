@@ -145,7 +145,7 @@ footer{
     height: 10em;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url("/../images/paris.jpeg");
+    background-image: url("../images/paris.jfif");
 }
 
 /* Pagina de Contacto */
@@ -179,6 +179,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 
