@@ -154,7 +154,7 @@ footer{
     height: 10em;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url("https://www.viajarafrancia.com/wp-content/uploads/2016/04/Paris-1024x768.jpg")!important;
+    background-image: url("../images/paris.jpeg") !important;
 }
  
 /* Pagina de Contacto */
