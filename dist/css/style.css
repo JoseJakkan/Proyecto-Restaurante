@@ -145,7 +145,7 @@ footer{
     height: 10em;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url("../images/paris.jfif");
+    background-image: url(".././images/paris.jpeg");
 }
 
 /* Pagina de Contacto */
@@ -187,6 +187,7 @@ footer{
 .mb-3{
     width: 50%;
     font-family: "paris";
+    justify-self: center;
     
     
 }
