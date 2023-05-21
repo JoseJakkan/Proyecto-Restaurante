@@ -33,6 +33,9 @@ body{
     
 }
 
+.color-prim{
+    color: var(--main-color);
+}
 
 .color-sec{
     background-color: var(--secondary-color);
@@ -145,7 +148,7 @@ footer{
     height: 10em;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url("./..images/paris.jpeg");
+    background-image: url("../images/paris.jpeg");
 }
 
 /* Pagina de Contacto */
