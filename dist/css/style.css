@@ -1,9 +1,14 @@
 
+
+
 :root{
     --main-color: #c42f4f; 
     --secondary-color: #FFD700; 
-    
-    
+}
+
+@font-face {
+  font-family: "paris";
+  src: url("../../fonts/Parisienne-Regular.ttf");
 }
 
 .col{
@@ -19,18 +24,12 @@ body{
 
 
 
-@font-face {
-  font-family: "paris";
-  src: url("images/Parisienne-Regular.ttf");
-}
+
 
 .header{
     height: 4.375em;
     background-color: var(--main-color);
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    
+  
 }
 
 .text-prim{
