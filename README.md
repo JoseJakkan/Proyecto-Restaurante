@@ -29,6 +29,7 @@ URL del Proyecto</a>
 <li>HTML5</li>
 <li>CSS3</li>
 <li>JavaScript</li>
+ <li>Bootstrap</li>
 </ul>
 
 ## :koala:Desarolladores del Proyecto
