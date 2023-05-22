@@ -154,7 +154,7 @@ footer{
     height: 10em;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url("https://forbes.es/wp-content/uploads/2023/02/Paris.jpg") !important;
+    background-image: url("../../images/paris.webp") !important;
 }
  
 /* Pagina de Contacto */
