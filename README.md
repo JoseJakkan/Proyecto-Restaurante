@@ -36,7 +36,7 @@ URL del Proyecto</a>
 
 
 Jose Antonio Lopez
-Estudiante de GeeksHubs Academy https://geekshubsacademy.com/
+
 :e-mail: lopez.joseantonio82@gmail.com
 
 ## :construction:Futuras Mejoras
